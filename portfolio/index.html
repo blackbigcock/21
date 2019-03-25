@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gurkov Alex portfolio</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container d-flex align-items-center">
+            <div class="logo d-flex align-items-center">
+                <div class="logo__photo"></div>
+                <div class="logo__text">
+                    <h6>Alex <br>Gurkov</h6>
+                    <span class="d-block">Front-end dev.</span>
+                </div>
+            </div>
+            <div class="navbar ml-auto p-0">
+                <div class="navbar__wrapper d-flex align-items-center justify-content-between">
+                    <button class="navbar-toggler navbar_close"><i class="fas fa-times"></i></button>
+                    <ul class="menu d-flex mb-0 pl-0">
+                        <li class="menu__item"><a href="#block-1" class="menu__link animate-scroll">work</a></li>
+                        <li class="menu__item"><a href="#block-2" class="menu__link animate-scroll">about me</a></li>
+                        <li class="menu__item"><a href="#block-3" class="menu__link animate-scroll">contact</a></li>
+                    </ul>
+                    <a href="mailto:alexandergurkovwork95@gmail.com" class="btn btn-outline-dark hire-btn">Hire me</a>
+                </div>
+            </div>
+            <button class="navbar-toggler"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+    <main class="main">
+        <section class="section hello-section">
+            <a name="block-2"></a>
+            <div class="container">
+                <div class="row">
+                    <div class="hello d-flex align-items-center">
+                        <div class="hello__item col-xl-5 pl-0">
+                            <h1 class="hello-title">
+                                <span class="d-block">Hello, i'm</span>
+                                Alexander Gurkov
+                            </h1>
+                            <p class="my-profession mb-4">Frontend Developer</p>
+                            <ul class="social mb-5 d-flex pl-0">
+                                <li class="social__item"><a href="https://www.facebook.com/profile.php?id=100033210521564" target="_blank" class="social__link social__link_fb d-flex"><i class="fab fa-facebook-f m-auto"></i></a></li>
+                                <li class="social__item"><a href="https://wa.me/79105015831" target="_blank" class="social__link social__link_wh d-flex"><i class="fab fa-whatsapp m-auto"></i></a></li>
+                                <li class="social__item"><a href="https://www.instagram.com/alexander_gurkov/?hl=ru" target="_blank" class="social__link social__link_in d-flex"><i class="fab fa-instagram m-auto"></i></a></li>
+                                <li class="social__item"><a href="https://github.com/alehandro1337" target="_blank" class="social__link social__link_git d-flex"><i class="fab fa-github m-auto"></i></a></li>
+                                <li class="social__item"><a href="https://vk.com/id440616378" target="_blank" class="social__link social__link_vk d-flex"><i class="fab fa-vk m-auto"></i></a></li>
+                            </ul>
+                            <a href="mailto:alexandergurkovwork95@gmail.com" class="btn btn_big btn-dark hire-btn top-hire-btn">Hire me</a>
+                        </div>
+                        <div class="hello__item hello__right pr-0 col-xl-7">
+                            <p class="about-text mb-0">I have been doing front end development for 2 years. <br><br>My main specialization is layout of websites and emails. I use in my work: flexbox layout, jQuery (plugins and custom code), Bootstrap 3/4, responsive layout, SCSS preprocessor. <br><br>My main approach to work is to write clean, valid and understandable code that other developers and myself will find it convenient to work with after some time. Order in the code also facilitates fast loading of pages, both from desktop and mobile devices. I check the speed of sites loading with <a href="https://developers.google.com/speed/pagespeed/insights/?hl=ru">Google's PageSpeed Insights tool</a>. <br><br>If you need a quality and fast layout of the site, I will be glad to cooperate. <br>With best wishes, Gurkov A.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section work-section">
+            <a name="block-1"></a>
+            <div class="container">
+                <ul class="nav tabs justify-content-center" id="workTab" role="tablist">
+                    <li class="tabs__item">
+                        <a class="tabs__link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">Sites</a>
+                    </li>
+                    <li class="tabs__item">
+                        <a class="tabs__link" id="mail-tab" data-toggle="tab" href="#mail" role="tab" aria-controls="mail" aria-selected="false">Mail's</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="workTabContent">
+                    <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+                        <div class="works d-flex justify-content-between flex-wrap">
+                            <div class="work">
+                                <a href="img/work-1.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-1.jpg" class="lazy" alt="">
+                                </a>
+                                <div class="work__content">
+                                    <p class="work__category">Landing page</p>
+                                    <h6 class="work__title d-flex justify-content-between">
+                                        <span>course landing page </span><a href="https://alehandro1337.github.io/design/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <a href="img/work-2.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-2.jpg" class="lazy" alt="">
+                                </a>
+                                <div class="work__content">
+                                    <p class="work__category">Landing page</p>
+                                    <h6 class="work__title d-flex justify-content-between">
+                                        <span>landing page for calltracking </span><a href="https://alehandro1337.github.io/calltracking/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <a href="img/work-3.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-3.jpg" class="lazy" alt="">
+                                </a>
+                                <div class="work__content">
+                                    <p class="work__category">Landing page</p>
+                                    <h6 class="work__title d-flex justify-content-between">
+                                        <span>fitness landing page </span><a href="http://almaty.tonusclub.kz/" target="_blank" class="work__link" title="view website"><i class="fas fa-link"></i></a>
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <a href="img/work-4.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-4.jpg" class="lazy" alt="">
+                                </a>
+                                <div class="work__content">
+                                    <p class="work__category">Landing page</p>
+                                    <h6 class="work__title d-flex justify-content-between">
+                                        <span>course landing page </span><a href="https://alehandro1337.github.io/svetlovo/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <a href="img/work-5.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-5.jpg" class="lazy" alt="">
+                                </a>
+                                <div class="work__content">
+                                    <p class="work__category">Landing page</p>
+                                    <h6 class="work__title d-flex justify-content-between">
+                                        <span>sms mailing landing page </span><a href="https://alehandro1337.github.io/sms/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <a href="img/work-6.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-6.jpg" class="lazy" alt="">
+                                </a>
+                                <div class="work__content">
+                                    <p class="work__category">Landing page</p>
+                                    <h6 class="work__title d-flex justify-content-between">
+                                        <span>hookah palace landing page </span><a href="https://www.hookah-club.net/" target="_blank" class="work__link" title="view website"><i class="fas fa-link"></i></a>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collapse" id="collapseExample">
+                            <div class="works d-flex justify-content-between flex-wrap">
+                                <div class="work">
+                                    <a href="img/work-7.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-7.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">Landing page</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>busines landing page </span><a href="https://alehandro1337.github.io/smart-room/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-8.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-8.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">Landing page</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>course landing page </span><a href="https://alehandro1337.github.io/property-seletcion/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-9.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-9.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">Corporate website</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>logistic company website </span><a href="https://plooton.ru/" target="_blank" class="work__link" title="view website"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-10.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-10.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">corporate website</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>production company site </span><a href="http://plitka75.ru/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-11.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-11.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">Landing page</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>fitness landing page </span><a href="https://perfect-sport.com/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-12.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-12.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">landing page</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>pottery salon landing </span><a href="alehandro1337.github.io/neolit/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-13.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-13.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">Landing page</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>busines landing page </span><a href="alehandro1337.github.io/meatfrozen/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-14.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-14.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">Landing page</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>busines landing page </span><a href="http://meatisland.ru/" target="_blank" class="work__link" title="view website"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-15.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-15.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">Landing page</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>logistic company landing page </span><a href="https://alehandro1337.github.io/logotrans/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-16.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-16.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">home page</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>busines site home page </span><a href="alehandro1337.github.io/lestnicauspeha/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-17.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-17.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">Landing page</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>ladder production landing page </span><a href="https://alehandro1337.github.io/lestnica/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-18.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-18.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">Landing page</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>polyglot landing page </span><a href="https://alehandro1337.github.io/lang/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-19.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-19.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">online shop</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>busines online shop </span><a href="https://github.com/alehandro1337/alehandro1337.github.io/tree/master/korm" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-20.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-20.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">Landing page</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>marketing course landing page </span><a href="https://alehandro1337.github.io/i-media/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-21.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-21.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">Landing page</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>crm marketing course landing page </span><a href="https://alehandro1337.github.io/i-media-new/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-22.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-22.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">Landing page</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>video course landing page </span><a href="https://alehandro1337.github.io/hair/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-23.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-23.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">corporate website</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>engineering company website </span><a href="https://github.com/alehandro1337/alehandro1337.github.io/tree/master/garden" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-24.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-24.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">Landing page</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>busines landing page </span><a href="https://alehandro1337.github.io/factoring/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-25.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-25.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">Landing page</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>BUSINES LANDING PAGE </span><a href="http://ecostonetech.ru/" target="_blank" class="work__link" title="view website"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-26.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-26.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">Landing page</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>product landing page </span><a href="https://alehandro1337.github.io/dorens/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-27.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-27.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">Landing page</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>car sharing landing page </span><a href="https://alehandro1337.github.io/cars-landing/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-28.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-28.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">corporate website</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>car sharing website </span><a href="https://github.com/alehandro1337/alehandro1337.github.io/tree/master/auto" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-29.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-29.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">corporate website</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>CAR SHARING WEBSITE </span><a href="https://github.com/alehandro1337/alehandro1337.github.io/tree/master/auto-2" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-30.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-30.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">corporate website</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>design furniture website</span><a href="https://github.com/alehandro1337/alehandro1337.github.io/tree/master/mebel" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-31.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-31.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">landing page</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>hosting landing page</span><a href="https://alehandro1337.github.io/workspace-host/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-32.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-32.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">landing page</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>photographer landing page</span><a href="https://alehandro1337.github.io/work1/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-33.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-33.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">landing page</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>wedding agency landing page</span><a href="https://alehandro1337.github.io/wedding/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-34.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-34.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">corporate website</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>estate agency website</span><a href="https://github.com/alehandro1337/alehandro1337.github.io/tree/master/vesta" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-35.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-35.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">home page</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>autoparts site home page</span><a href="https://alehandro1337.github.io/venparts/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <a href="img/work-36.jpg" class="work__photo" data-lightbox="portfolio">
+                                    <img data-src="img/work-36.jpg" class="lazy" alt="">
+                                    </a>
+                                    <div class="work__content">
+                                        <p class="work__category">landing page</p>
+                                        <h6 class="work__title d-flex justify-content-between">
+                                            <span>product landing page</span><a href="https://alehandro1337.github.io/vcline/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline-dark work_more" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            load more work
+                        </button>
+                    </div>
+                    <div class="tab-pane fade" id="mail" role="tabpanel" aria-labelledby="mail-tab">
+                        <div class="works d-flex justify-content-between flex-wrap">
+                            <div class="work">
+                                <a href="img/work-37.jpg" class="work__photo" data-lightbox="portfolio-mails">
+                                    <img data-src="img/work-37.jpg" class="lazy" alt="">
+                                </a>
+                                <div class="work__content">
+                                    <p class="work__category">email</p>
+                                    <h6 class="work__title d-flex justify-content-between">
+                                        <span>nl master pattern </span><a href="https://alehandro1337.github.io/nl/" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <a href="img/work-38.jpg" class="work__photo" data-lightbox="portfolio-mails">
+                                    <img data-src="img/work-38.jpg" class="lazy" alt="">
+                                </a>
+                                <div class="work__content">
+                                    <p class="work__category">email</p>
+                                    <h6 class="work__title d-flex justify-content-between">
+                                        <span>kfc master pattern </span><a href="https://alehandro1337.github.io/kfc/index-1.html" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <a href="img/work-39.jpg" class="work__photo" data-lightbox="portfolio-mails">
+                                    <img data-src="img/work-39.jpg" class="lazy" alt="">
+                                </a>
+                                <div class="work__content">
+                                    <p class="work__category">email</p>
+                                    <h6 class="work__title d-flex justify-content-between">
+                                        <span>olim bet master pattern </span><a href="https://alehandro1337.github.io/olimp-bet/index.html" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <a href="img/work-40.jpg" class="work__photo" data-lightbox="portfolio-mails">
+                                    <img data-src="img/work-40.jpg" class="lazy" alt="">
+                                </a>
+                                <div class="work__content">
+                                    <p class="work__category">email</p>
+                                    <h6 class="work__title d-flex justify-content-between">
+                                        <span>binary district master pattern </span><a href="https://alehandro1337.github.io/binary-district/index-1.html" target="_blank" class="work__link" title="look at github"><i class="fas fa-link"></i></a>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <a name="block-3"></a>
+        <div class="container d-flex align-items-center">
+            <p class="copyright mb-0">&copy; 2019 - Alexander Gurkov</p>
+            <ul class="footer-social pl-0 mb-0 d-flex">
+                <li class="footer-social__item">
+                    <a href="https://wa.me/79105015831" target="_blank" class="footer-social__link"><i class="fab fa-whatsapp"></i></a>
+                </li>
+                <li class="footer-social__item">
+                    <a href="https://www.facebook.com/profile.php?id=100033210521564" target="_blank" class="footer-social__link"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="footer-social__item">
+                    <a href="https://www.instagram.com/alexander_gurkov/?hl=ru" target="_blank" class="footer-social__link"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="footer-social__item">
+                    <a href="https://github.com/alehandro1337" target="_blank" class="footer-social__link"><i class="fab fa-github"></i></a>
+                </li>
+                <li class="footer-social__item">
+                    <a href="https://vk.com/id440616378" target="_blank" class="footer-social__link"><i class="fab fa-vk"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery.lazy.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/lightbox.min.js"></script>
+</body>
+</html>
